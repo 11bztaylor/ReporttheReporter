@@ -1,34 +1,34 @@
-# Standards map — what each publication actually does
+# Research-backed standards map
 
-**Do not treat these as competing scoring frameworks.** They occupy different roles.
+**These documents are complementary, not competing score frameworks.** Status of this program: **proposed local design**, not a NIST-endorsed product.
 
-| Source | What it contributes | How this program uses it |
+| Guideline | Role in the program | Questions answered |
 |---|---|---|
-| **NIST CSF 2.0** | Outcome taxonomy; organizational/current/target profiles | Define comparable security *outcomes*, with agency-specific applicability |
-| **NIST SP 800-55 Vol. 1** | Information security measures, development/selection | Define meaningful measures, formulas and reporting requirements |
-| **NIST SP 800-55 Vol. 2** | Developing an information security measurement program | Define ongoing governance, roles, workflows, communications, sustainability |
-| **NIST SP 800-137** | Continuous information security monitoring; three organization/mission/system tiers | Operate ongoing collection, analysis, reporting and response |
-| **CIS Controls Assessment Specification** | Practical safeguard assessment inputs and calculation patterns | Reuse suitable definitions where relevant, not as universal scores |
-| **CISA CDM Program** | Government-wide continuous diagnostics and dashboards | Reference architecture for aggregation across agencies |
+| [NIST CSF 2.0](https://www.nist.gov/cyberframework) + [Organizational Profiles](https://csrc.nist.gov/pubs/sp/1301/final) | Security outcomes and agency-specific current/target profile | What outcome applies? |
+| [NIST SP 800-55 Vol. 1](https://csrc.nist.gov/pubs/sp/800/55/v1/final) | Selecting and documenting defensible measures | What should be measured and with which denominator? |
+| [NIST SP 800-55 Vol. 2](https://csrc.nist.gov/pubs/sp/800/55/v2/final) | Program governance, responsibilities, communication and sustainability | Who owns the measurement program? |
+| [NIST SP 800-137](https://csrc.nist.gov/pubs/sp/800/137/final) | Information security continuous monitoring | How does evidence continuously arrive and affect decisions? |
+| [NIST IR 8286 Rev. 1](https://csrc.nist.gov/pubs/ir/8286/r1/final) and companions | Cybersecurity risk → enterprise risk management | How do measured control conditions inform risk scenarios and registers? |
+| [CIS Controls Assessment Specification](https://cas.docs.cisecurity.org/en/latest/source/About%20the%20CIS%20Controls%20Assessment%20Specification/) | Practical safeguard assessment methodology, especially implementation assessment | What reusable measurement mechanics exist? |
+| [CISA CDM](https://www.cisa.gov/resources-tools/programs/continuous-diagnostics-and-mitigation-cdm-program) | Federal agency aggregation and monitoring reference | How can decentralized organizations present enterprise views? |
+| [NIST SP 1308](https://csrc.nist.gov/pubs/sp/1308/final) | Cybersecurity, ERM and workforce considerations | Could a workforce/capacity constraint explain the gap? |
 
-## Official starting points
-- NIST Cybersecurity Framework 2.0: https://www.nist.gov/cyberframework
-- NIST CSF 2.0 reference: https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
-- NIST SP 800-55 Volume 1: https://csrc.nist.gov/pubs/sp/800/55/v1/final
-- NIST SP 800-55 Volume 2: https://csrc.nist.gov/pubs/sp/800/55/v2/final
-- NIST SP 800-137: https://csrc.nist.gov/pubs/sp/800/137/final
-- CIS Controls: https://www.cisecurity.org/controls
-- CISA CDM: https://www.cisa.gov/resources-tools/programs/continuous-diagnostics-and-mitigation-cdm-program
+## Terminology to avoid mixing up
+- **CSF Functions/Categories/Subcategories** = desired cybersecurity outcomes.
+- **CSF Organizational Profiles** = prioritized current and target outcomes for an organization.
+- **CSF Tiers** = a characterization of cybersecurity risk governance/management practices; not agency security percentages.
+- **SP 800-137 organizational Tiers 1/2/3** = organization / mission-business processes / information systems. These are a *different* tier concept.
+- **Measurement program** = a proposed function spanning evidence, validation, interpretation and reporting; **not an extra NIST tier**.
+- **Risk register** = a governed decision artifact with risk scenario, owner, response and review—not a copied list of CVEs.
 
-## What's not supplied automatically by standards?
-- Our agency-specific scope, participation, eligibility and exception policy
-- Authoritative data sources and denominator inventories
-- Risk thresholds and authorities
-- An approved method to rate data confidence
-- A defensible composite-score formula (if ever desired)
-- The human decision and outcome follow-up cadence
+## Assumptions requiring local approval
+Agency applicability, authoritative inventories, thresholds, data confidence rubric, incident escalation rules, risk authority, records handling, comparisons, staffing, and exact implementations.
 
-The organization must govern those locally. Cite specific official publication revisions before making a binding compliance claim.
+## Research sources and findings
+See [Nov 2026 research notes](research-notes-2026-11.md). GAO's 2025 CDM review reinforces why data validation and multi-agency integration are major workstreams; it does **not** establish conditions in our agencies.
 
-## Caution
-NIST CSF 2.0 is not a ready-made universal 0–100 organization grade. NIST guidance informs but does not automatically approve this local program or its custom metrics.
+## Explicit cautions
+- NIST CSF is not a ready-made numerical security grade.
+- CIS implementation assessment is not equivalent to verified control effectiveness or quantified cyber risk.
+- Vendor ratings and incident counts cannot be compared without scope and validated denominator.
+- A measurement is only one input to a risk scenario and authorized decision.
