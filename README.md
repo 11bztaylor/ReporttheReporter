@@ -35,6 +35,24 @@ flowchart LR
 
 **Scope:** Public, vendor-neutral program templates with *illustrative* examples. No live agency findings, production queries, internal inventory, or sensitive operational configurations should be committed here.
 
+## Visual quick launch
+
+[**OPEN THE VISUAL PRESENTATION KIT**](briefings/README.md) — four full-size SVG slides you can open directly from GitHub:
+
+![Evidence to decision](briefings/visuals/01-operating-model.svg)
+
+- [Technical evidence → program → leadership](briefings/visuals/01-operating-model.svg)
+- [One finding, four leadership views](briefings/visuals/02-four-views.svg)
+- [Decision quality gates](briefings/visuals/03-decision-gates.svg)
+- [Example executive decision panel](briefings/visuals/04-executive-panel.svg)
+
+### Key research upgrades (November 2026)
+
+- [**NIST IR 8286 risk-to-decision bridge**](program/07-risk-to-decision-bridge.md): avoid confusing a measured control weakness with an approved enterprise risk scenario.
+- [**Agency service participation and applicability**](program/08-agency-applicability-and-services.md): don't treat different scopes, inherited controls, and monitoring coverage as equivalent.
+- [**Program outcome and accountability review**](program/09-outcome-review-and-program-health.md): monitor whether decisions happened and had the intended effect.
+- [Research findings and primary sources](references/research-notes-2026-11.md).
+
 ### Program artifacts
 - [Charter](program/01-charter.md) · [Governance](program/02-governance.md) · [Operating cycle](program/03-operating-cycle.md) · [Decision tree](program/04-decision-and-escalation.md) · [Evidence and disputes](program/05-evidence-quality-and-disputes.md) · [Pilot](program/06-pilot-roadmap.md)
 - [Architecture](implementation/architecture.md) · [Data contracts](implementation/evidence-and-history-model.md)
