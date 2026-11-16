@@ -1,0 +1,17 @@
+# Avoid accidentally committing local secrets, production extracts and temporary artifacts
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.kusto
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+__pycache__/
+.DS_Store
+node_modules/
