@@ -1,23 +1,28 @@
-# Leadership briefing kit — open this first
+# Leadership briefing kit — start here
 
-**Designed for a short conversation, not a technical lecture.** Each link contains a Github-rendered Mermaid diagram or a one-page speaking guide. All numerical examples are hypothetical.
+**Five-minute route:** four full-size visuals, a one-page script, and optional technical detail. All numbers are *illustrative*.
 
-## Five-minute route
-1. [One-page talking points](00-one-page-brief.md) — what we are asking to stand up.
-2. [Evidence to decision flow](01-evidence-to-decision.md) — how technicians, the measurement program and agency/enterprise leaders hand off.
-3. [Presentation layers](02-presentation-layers.md) — what each audience sees.
-4. [Decision tree](03-decision-tree.md) — how to avoid false alarms and escalate appropriately.
-5. [Vulnerability walkthrough](04-vulnerability-walkthrough.md) — same issue, four different explanations.
-6. [Continuous feedback loop](05-feedback-loop.md) — why this is a *program* instead of a disposable dashboard.
+## OPEN THE VISUAL SLIDES
+1. **[How evidence becomes a leadership decision](visuals/01-operating-model.svg)** — technical → program → agency → enterprise → measured outcome
+2. **[Same finding, four conversations](visuals/02-four-views.svg)** — who sees what and why
+3. **[Decision gates and escalation](visuals/03-decision-gates.svg)** — stop false urgency without blocking true incidents
+4. **[Sample executive decision panel](visuals/04-executive-panel.svg)** — observation, data confidence, decision request, success measure
 
-## What to request
-Approval to pilot a formal measurement function with executive sponsorship, named measurement owner, agency SMEs and risk/GRC participation. No new tool procurement implied. Pilot scope: 2–3 volunteer agencies, 3 candidate measures, and a decision/outcome register.
+![Evidence to decision operating model](visuals/01-operating-model.svg)
 
-**One-line close:** 'Let's stop producing metrics as the end product. Let's build a process where metrics support decisions and we can prove whether those decisions helped.'
+**Presenter shortcut:** [One-page talking points](00-one-page-brief.md) → slides 1 and 2 → slide 4. Reserve slide 3 for questions.
 
-## Before you present
-- Verify definitions and examples are marked illustrative.
-- Do not call the proposed measurement program an official additional NIST tier.
-- Do not imply enterprise security posture can be reduced to a single score.
-- Do not expose actual agency weaknesses, assets, or secrets in shared screens.
-- The source [program](../program/01-charter.md) contains operational details when asked.
+## Supporting editable flowcharts (Mermaid)
+- [Evidence to decision](01-evidence-to-decision.md)
+- [Presentation layers](02-presentation-layers.md)
+- [Full escalation tree](03-decision-tree.md)
+- [Walkthrough: vulnerability case](04-vulnerability-walkthrough.md)
+- [Closed-loop improvement](05-feedback-loop.md)
+
+## Research upgrades
+The **risk translation** between measurement and executive decision is governed by an agency/enterprise risk function; see [NIST IR 8286 bridge](../program/07-risk-to-decision-bridge.md). The agency must also establish [service participation and measurement applicability](../program/08-agency-applicability-and-services.md). Finally, the [program tracks its own decision outcomes](../program/09-outcome-review-and-program-health.md), not just tool statistics.
+
+## Request
+Sponsor a limited 90-day pilot: named owner, risk/GRC, agency SMEs, engineering support, reviewed decision cadence. No universal score or new procurement promised.
+
+**Safety:** No real agency findings, operational secrets or production telemetry in this public repo. All diagrams are static files designed to display directly in GitHub.
