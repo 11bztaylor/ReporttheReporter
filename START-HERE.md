@@ -1,21 +1,28 @@
 # Start here — 2 minutes
 
-**Purpose:** We do not want another dashboard. We want a repeating process that turns security evidence into decisions and checks whether the decisions improved anything.
+**We are not building a prettier dashboard. We are creating a repeatable, defensible evidence → decision → outcome program.**
 
-## Pick your route
-- **I am presenting:** [Open the leadership kit](briefings/README.md). Start with the one-page message, then show the workflow and the vulnerability walkthrough.
-- **I am standing up the program:** [Charter](program/01-charter.md) → [Governance](program/02-governance.md) → [90-day pilot](program/06-pilot-roadmap.md).
-- **I collect technical data:** [Metric catalog](metrics/README.md) → [Metric specification](templates/metric-specification.md) → [Evidence architecture](implementation/architecture.md).
-- **I need to defend or dispute a result:** [Evidence quality and agency disputes](program/05-evidence-quality-and-disputes.md).
+## Click the route you need
 
-## The one-sentence promise
-Every escalated measurement will say **what was observed**, **how much is actually measurable**, **why it matters**, **who can decide**, and **how we will know whether the response worked**.
+| I need to… | Start here |
+|---|---|
+| **Show leadership, visually** | [Four picture slides + short speaking notes](briefings/README.md) |
+| Understand the program at a glance | [Program charter](program/01-charter.md) |
+| Understand how measurements become risk | [Risk-to-decision bridge](program/07-risk-to-decision-bridge.md) |
+| Understand agency differences and responsibility | [Applicability & central service registry](program/08-agency-applicability-and-services.md) |
+| See how we keep it alive | [Program outcome review](program/09-outcome-review-and-program-health.md) |
+| Stand up a pilot | [90-day roadmap](program/06-pilot-roadmap.md) |
+| Define technical measurements | [Catalog](metrics/README.md) / [Specification template](templates/metric-specification.md) |
+| Track decisions | [Decision record](templates/decision-record.md) / [Risk scenario packet](templates/risk-scenario-packet.md) |
+| Understand the standards | [Standards map](references/standards-map.md) |
 
-## First three actions
-1. Appoint a sponsor and program owner; identify agency/risk representatives.
-2. Choose 2–3 volunteer agencies and 3 candidate measures; confirm decision use cases first.
-3. Approve definitions and evidence limitations before publishing comparisons.
+![The evidence-to-decision program](briefings/visuals/01-operating-model.svg)
 
-**Avoid:** a single agency security score at launch; treating missing telemetry as zero risk; allowing a stale snapshot to masquerade as live status.
+## Thirty-second explanation
+"Technicians produce evidence. The measurement program checks quality and coverage, then identifies patterns. Agency leaders supply mission context and act locally. Risk owners assess consequential scenarios. Enterprise leadership sees only the policy, funding and strategic decisions it can authorize. Every decision returns to a measured outcome."
 
-**Status:** Proposed program design, with templates and hypothetical examples only.
+## What is proposed, not yet approved
+The program design, roles, 90-day pilot, candidate metrics, thresholds, confidence labels, technology choices, and visual examples are **proposals**. This is not a compliance certification or deployed implementation.
+
+## One first step
+Appoint an executive sponsor and program owner, then choose specific decision questions with agency/risk representatives *before* choosing the charts.
