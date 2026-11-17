@@ -8,7 +8,7 @@
 |---|---|
 | "Of 100 eligible priority endpoints, 82 have healthy protection telemetry." | "If a threat affects priority service X while a relevant endpoint is unmonitored, detection and containment may be delayed, potentially disrupting service Y." |
 | Records reproducible numerators, denominators, timestamps, coverage, methodology. | Records threat event, affected asset/mission, likelihood/impact assessment, assumptions, existing controls, risk owner, chosen response, review date. |
-| Managed by measurement program with technical data owner. | Owned and assessed by authorized agency/enterprise risk function; evaluated against approved risk criteria. |
+| Managed by measurement program with technical data owner. | Owned and assessed by authorized Reporting Unit/enterprise risk function; evaluated against approved risk criteria. |
 | Reviewed continuously at operational cadence. | Updated on trigger, material change and governed risk review cadence. |
 
 **Do not directly convert 82% into an 18% chance of compromise or into a dollar loss.** These would require a defensible model and supporting evidence. Unknowns can prompt an assessment without justifying a quantified risk claim.
@@ -28,14 +28,14 @@ flowchart LR
 
 ## Local evaluation gates
 1. **Evidence gate:** Is the observed condition true, sufficiently fresh, appropriately scoped and covered?
-2. **Materiality gate:** Does it plausibly affect an agency mission/service, compliance obligation, or shared operational capability? If unclear, request agency validation.
+2. **Materiality gate:** Does it plausibly affect an Reporting Unit mission/service, compliance obligation, or shared operational capability? If unclear, request Reporting Unit validation.
 3. **Risk scenario gate:** Describe an event and consequence, not merely a control score; identify existing safeguards.
 4. **Priority gate:** Use approved risk appetite/tolerance and mission criticality. If risk likelihood/impact estimates cannot be defended, say so.
-5. **Authority gate:** Determine whether the response belongs to agency operations, central service, risk owner, or enterprise executive.
+5. **Authority gate:** Determine whether the response belongs to Reporting Unit operations, central service, risk owner, or enterprise executive.
 6. **Outcome gate:** Record the decision and verify whether the treatment changed exposure or mission outcome.
 
 ## Handoff to enterprise risk management (ERM)
-Use approved agency risk registers or an enterprise risk register **if these exist**; don't create a competing official register without leadership agreement. The program can publish candidate risk scenario packets for assessment. Enterprise aggregation should preserve agency boundaries, dependencies, distinct causes and correlated risks; summing counts across agencies does not produce enterprise risk exposure.
+Use approved Reporting Unit risk registers or an enterprise risk register **if these exist**; don't create a competing official register without leadership agreement. The program can publish candidate risk scenario packets for assessment. Enterprise aggregation should preserve Reporting Unit boundaries, dependencies, distinct causes and correlated risks; summing counts across Reporting Units does not produce enterprise risk exposure.
 
 ## References
 - [NIST IR 8286 Rev. 1 — Integrating Cybersecurity and ERM](https://csrc.nist.gov/pubs/ir/8286/r1/final)
