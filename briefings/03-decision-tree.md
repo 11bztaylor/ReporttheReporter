@@ -10,9 +10,9 @@ flowchart TD
  F -- Yes --> G["Immediate SOC / incident response path"]
  F -- No --> H{"Persistent gap or policy miss?"}
  H -- No --> I["Continue monitoring"]
- H -- Yes --> J["Program and agency validate causes"]
+ H -- Yes --> J["Program and Reporting Unit validate causes"]
  J --> K{"Who owns the needed decision?"}
- K -- Agency --> L["Agency action"]
+ K -- Reporting Unit --> L["Reporting Unit action"]
  K -- Enterprise --> M["Enterprise action"]
  L --> N["Record decision and measure impact"]
  M --> N
