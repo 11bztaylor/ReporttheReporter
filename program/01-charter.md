@@ -4,10 +4,10 @@
 Enterprise Cybersecurity Measurement & Decision Support Program (working name: Report the Reporter)
 
 ## Mission
-Provide consistent, continuous, auditable cybersecurity measurements that allow agency and enterprise leaders to prioritize actions, investments, and acceptance of risk with explicit evidence limitations.
+Provide consistent, continuous, auditable cybersecurity measurements that allow Reporting Unit and enterprise leaders to prioritize actions, investments, and acceptance of risk with explicit evidence limitations.
 
 ## Problem statement
-Recurring metric requests lead to custom dashboards with low decision impact and uncertain sustainability. Independent agencies vary in missions, asset scopes, tool adoption and monitoring coverage, creating misleading cross-agency comparisons when raw counts or vendor scores are used as if interchangeable.
+Recurring metric requests lead to custom dashboards with low decision impact and uncertain sustainability. Independent Reporting Units vary in missions, asset scopes, tool adoption and monitoring coverage, creating misleading cross-Reporting Unit comparisons when raw counts or vendor scores are used as if interchangeable.
 
 ## Desired outcomes
 1. **Decision usefulness:** each promoted metric is tied to a question and an authorized decision path.
@@ -17,8 +17,8 @@ Recurring metric requests lead to custom dashboards with low decision impact and
 5. **Proportionality:** short-lived operational fluctuations are not automatically strategic risks; urgent conditions can still trigger immediate response.
 
 ## Scope
-**In:** shared metric definitions, evidence and confidence requirements, agency-applicability registry, validation, historical analysis, communication layers, escalation, decision register, follow-up, and integration patterns.
-**Out initially:** universal 0–100 ranking, replacement of agency risk ownership, enterprise-wide maturity certification, complete security coverage, procurement commitment, automated acceptance of risks.
+**In:** shared metric definitions, evidence and confidence requirements, Reporting Unit-applicability registry, validation, historical analysis, communication layers, escalation, decision register, follow-up, and integration patterns.
+**Out initially:** universal 0–100 ranking, replacement of Reporting Unit risk ownership, enterprise-wide maturity certification, complete security coverage, procurement commitment, automated acceptance of risks.
 
 ## Initial measures
 - Vulnerability management / remediation against agreed targets
@@ -27,16 +27,16 @@ Recurring metric requests lead to custom dashboards with low decision impact and
 
 ## Program success criteria (pilot)
 - At least three measures have approved definitions and documented limitations.
-- Findings trace to source evidence and applicable agency inventory.
+- Findings trace to source evidence and applicable Reporting Unit inventory.
 - At least one decision or documented decision-to-monitor is captured with owner and follow-up.
-- Reviewed agencies can validate or challenge results with an auditable resolution.
+- Reviewed Reporting Units can validate or challenge results with an auditable resolution.
 - Trend is available across at least several reporting intervals; avoid claiming long-term change from a 90-day pilot.
 - Stakeholders judge reporting actionable and repeatable.
 
 ## Sponsorship sought
-Executive sponsor; named program owner; agency participation; risk/GRC policy oversight; recurring review cadence; limited technical engineering capacity.
+Executive sponsor; named program owner; Reporting Unit participation; risk/GRC policy oversight; recurring review cadence; limited technical engineering capacity.
 
 ## Decision rights
-Technical teams establish what evidence says. Agency owners establish mission impact and scope. Risk leadership approves criteria and risk acceptance. Authorized executives fund/policy/enterprise decisions. The program facilitates and records; it does not unilaterally certify agencies as secure.
+Technical teams establish what evidence says. Reporting Unit owners establish mission impact and scope. Risk leadership approves criteria and risk acceptance. Authorized executives fund/policy/enterprise decisions. The program facilitates and records; it does not unilaterally certify Reporting Units as secure.
 
 See [governance](02-governance.md) and [pilot plan](06-pilot-roadmap.md).
