@@ -39,3 +39,17 @@ Open [index.html](index.html) in a browser after downloading or cloning the repo
 If this becomes an operational application, use organizational identity, access controls, data isolation, approvals, a versioned decision ledger, event histories and secure evidence references. Avoid storing sensitive source data in a browser-only prototype.
 
 **Reminder:** The HTML component is a guided demonstration, not a deployed measurement/risk management system.
+## ELI5 mode (plain-language walkthrough)
+
+Switch **ELI5 mode** on using the toggle in the top toolbar. It changes the instructions, field labels, dropdown wording, results, and audience briefings **without changing the underlying evidence or rules**. Switching off restores the technical wording and preserves entered values.
+
+To see the beginner example, turn on ELI5 and click **Load easy 10-computer example**:
+
+- Ten work computers are eligible to be checked.
+- Seven have confirmed working protection (shown in **green**).
+- Three did not meet the check (shown in **amber**); they need investigation, but are not automatically compromised or unsafe.
+- The hypothetical team confirms it has happened on earlier checks. The proposed local action is to investigate those three computers and check again.
+
+The picture, percentage-free explanation, next-step guidance and role-specific wording all follow the same input values. This is a teaching example, not an agency or organization score.
+
+**No live browser test is claimed by this documentation**; the source is provided as an offline HTML component. Try both modes in your browser before using it in a presentation.
