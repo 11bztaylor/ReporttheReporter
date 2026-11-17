@@ -10,9 +10,9 @@ flowchart TD
  F -- Yes --> G["Operational incident escalation now"]
  F -- No --> H{"Meaningful persistent deviation?"}
  H -- No --> I["Continue monitoring"]
- H -- Yes --> J["Verify agency context and root cause"]
+ H -- Yes --> J["Verify Reporting Unit context and root cause"]
  J --> K{"Who can authorize remedy?"}
- K -- Agency --> L["Agency decision and action"]
+ K -- Reporting Unit --> L["Reporting Unit decision and action"]
  K -- Enterprise --> M["Enterprise policy/funding decision"]
  E --> N["Track gap and correction"]
  L --> N
