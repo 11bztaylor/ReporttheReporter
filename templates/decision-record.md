@@ -1,7 +1,7 @@
 # Decision / action record template
 
 **Decision ID:**  
-**Agency / enterprise scope:**  
+**Reporting Unit / enterprise scope:**  
 **Opened / decided / next review:**  
 **Owner / approver:**  
 **Finding ID + metric version + evidence snapshot:**  
