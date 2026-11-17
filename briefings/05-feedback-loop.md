@@ -22,4 +22,4 @@ flowchart LR
 - The backlog of unanswered questions shapes the next measures to create.
 
 ## Exit slide
-**Request:** approve a small scoped pilot with governance and a decision cycle. **Not requested:** another dashboard purchase or an unsupported agency security ranking.
+**Request:** approve a small scoped pilot with governance and a decision cycle. **Not requested:** another dashboard purchase or an unsupported Reporting Unit security ranking.
