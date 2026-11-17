@@ -11,7 +11,7 @@
 | Intended audience and usage | |
 | Accountable decision owner | |
 | Technical data owner / program approver | |
-| Agency scope / eligibility / exclusions | |
+| Reporting Unit scope / eligibility / exclusions | |
 | Authoritative denominator and source | |
 | Numerator / formula / units | |
 | Data sources, access constraints and evidence IDs | |
@@ -21,7 +21,7 @@
 | Confidence grading and minimum publishing standard | |
 | Thresholds / windows / persistence / urgent override | |
 | Interpretation and false-positive risks | |
-| Agency review / challenge process | |
+| Reporting Unit review / challenge process | |
 | History, versioning and methodology change rules | |
 | Recommended decisions / actions / alternative paths | |
 | Next measurement / success condition | |
@@ -33,7 +33,7 @@
 - [ ] Data source and method version recorded
 - [ ] Quality checks and coverage displayed
 - [ ] Timestamps and refresh lag explicit
-- [ ] Agency validation / dispute route provided
+- [ ] Reporting Unit validation / dispute route provided
 - [ ] Outcome follow-up owner assigned
 
-**Security:** Do not place sensitive real agency evidence in this public repository.
+**Security:** Do not place sensitive real Reporting Unit evidence in this public repository.
