@@ -4,11 +4,11 @@ These are proposed *logical* entities, not production schemas.
 
 | Entity | Minimum fields |
 |---|---|
-| Reporting Unit | agency_id, name, reporting scope, business owner, effective dates |
-| Applicable population | metric_id, agency_id, cohort_id, eligibility policy version, denominator, inventory_source, observed_at |
-| Source evidence | evidence_id, agency_id, source_system, source_record_id, asset_id, event_time, source_update_time, ingested_at, evidence_state, integrity metadata |
+| Reporting Unit | reporting_unit_id, name, reporting scope, business owner, effective dates |
+| Applicable population | metric_id, reporting_unit_id, cohort_id, eligibility policy version, denominator, inventory_source, observed_at |
+| Source evidence | evidence_id, reporting_unit_id, source_system, source_record_id, asset_id, event_time, source_update_time, ingested_at, evidence_state, integrity metadata |
 | Metric definition | metric_id, definition_version, formula, inputs, units, target, applicability, approval state, effective dates |
-| Measurement snapshot | measurement_id, agency_id, metric_id/version, as_of, computed_at, published_at, numerator, denominator, value, coverage, confidence, limitations, evidence_set_id |
+| Measurement snapshot | measurement_id, reporting_unit_id, metric_id/version, as_of, computed_at, published_at, numerator, denominator, value, coverage, confidence, limitations, evidence_set_id |
 | Challenge | challenge_id, snapshot_id, submitted_at, challenger, claim, evidence_ref, status, resolution, reviewer, revised_snapshot_id |
 | Decision and action | decision_id, finding_id, authority, chosen option, owner, due_at, decision_at, evidence_set_id, outcome_review_at, status |
 | Audit history | entity_id, revision, actor, timestamp, old/new change type, reason and immutable reference |
