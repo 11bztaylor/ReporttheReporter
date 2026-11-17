@@ -1,4 +1,4 @@
-# Agency applicability and service participation model
+# Reporting Unit applicability and service participation model
 
 **Purpose:** Comparable *definitions*, not forced comparable *scores*. State organizations operate different missions with different technology and service adoption. Distinguish controls they own from central services they subscribe to.
 
@@ -12,7 +12,7 @@
 | applicable security outcome | Avoid scoring inapplicable requirements |
 | inventory source and steward | Independent denominator, coverage proof |
 | data owner + incident/risk owner | Correct handoff |
-| inherited/shared/local control responsibility | Prevent assigning centrally owned gaps to an agency |
+| inherited/shared/local control responsibility | Prevent assigning centrally owned gaps to an Reporting Unit |
 | exceptions + expiry + approved authority | Traceable deviations |
 | data entitlement classification | Isolation and sharing limits |
 
@@ -21,18 +21,18 @@
 - **Applicable + not adequately measured:** visibility gap; report separately with action owner.
 - **Not applicable / outside subscribed service:** documented rationale and scope. Never treat as zero or as fully compliant.
 
-## Cross-agency comparison rules
+## Cross-Reporting Unit comparison rules
 - Only compare like-for-like measures and eligible cohorts.
-- Always show numerator, denominator, coverage and agency context.
+- Always show numerator, denominator, coverage and Reporting Unit context.
 - Segment enterprise results by a *common applicable cohort*; exclude unsupported peer rankings.
-- Measure the central service separately: onboarding lead time, ingestion reliability, coverage of commitments, incident service delivery and agency engagement.
+- Measure the central service separately: onboarding lead time, ingestion reliability, coverage of commitments, incident service delivery and Reporting Unit engagement.
 - Avoid self-assessment conflict: the SOC can report service performance, but independent review/risk owners validate consequential conclusions.
 
 ## Two-dimensional view
-**Agency security outcome** (where measurable) × **service/evidence coverage**. You may have an agency with many known findings but excellent visibility, and another with few findings and inadequate monitoring; neither situation justifies a confident 'secure' label.
+**Reporting Unit security outcome** (where measurable) × **service/evidence coverage**. You may have an Reporting Unit with many known findings but excellent visibility, and another with few findings and inadequate monitoring; neither situation justifies a confident 'secure' label.
 
 ## Example responsibility distinction
-| Observation | Possible agency action | Possible enterprise service action |
+| Observation | Possible Reporting Unit action | Possible enterprise service action |
 |---|---|---|
 | Vulnerabilities persist beyond agreed target | Schedule patch windows, remediate owned system | Shared engineering/contract capacity where demonstrated |
 | Sensor missing on owned endpoints | Confirm assets and installation change | Correct onboarding/tool support fault |
