@@ -19,4 +19,4 @@ Enrollment is not effectiveness. Devices not in the platform inventory may be in
 Separate unowned asset inventory gaps from installation failures, platform support limitations, and operational exceptions. Escalate persistent common constraints to shared-service owners.
 
 ## Example executive wording
-'Coverage cannot yet be confirmed across the full agency fleet. Agency and endpoint teams are reconciling the authoritative device population before recommending investments.'
+'Coverage cannot yet be confirmed across the full Reporting Unit fleet. Reporting Unit and endpoint teams are reconciling the authoritative device population before recommending investments.'
