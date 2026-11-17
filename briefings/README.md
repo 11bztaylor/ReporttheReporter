@@ -3,7 +3,7 @@
 **Five-minute route:** four full-size visuals, a one-page script, and optional technical detail. All numbers are *illustrative*.
 
 ## OPEN THE VISUAL SLIDES
-1. **[How evidence becomes a leadership decision](visuals/01-operating-model.svg)** — technical → program → agency → enterprise → measured outcome
+1. **[How evidence becomes a leadership decision](visuals/01-operating-model.svg)** — technical → program → Reporting Unit → enterprise → measured outcome
 2. **[Same finding, four conversations](visuals/02-four-views.svg)** — who sees what and why
 3. **[Decision gates and escalation](visuals/03-decision-gates.svg)** — stop false urgency without blocking true incidents
 4. **[Sample executive decision panel](visuals/04-executive-panel.svg)** — observation, data confidence, decision request, success measure
@@ -20,9 +20,9 @@
 - [Closed-loop improvement](05-feedback-loop.md)
 
 ## Research upgrades
-The **risk translation** between measurement and executive decision is governed by an agency/enterprise risk function; see [NIST IR 8286 bridge](../program/07-risk-to-decision-bridge.md). The agency must also establish [service participation and measurement applicability](../program/08-agency-applicability-and-services.md). Finally, the [program tracks its own decision outcomes](../program/09-outcome-review-and-program-health.md), not just tool statistics.
+The **risk translation** between measurement and executive decision is governed by an Reporting Unit/enterprise risk function; see [NIST IR 8286 bridge](../program/07-risk-to-decision-bridge.md). The Reporting Unit must also establish [service participation and measurement applicability](../program/08-Reporting Unit-applicability-and-services.md). Finally, the [program tracks its own decision outcomes](../program/09-outcome-review-and-program-health.md), not just tool statistics.
 
 ## Request
-Sponsor a limited 90-day pilot: named owner, risk/GRC, agency SMEs, engineering support, reviewed decision cadence. No universal score or new procurement promised.
+Sponsor a limited 90-day pilot: named owner, risk/GRC, Reporting Unit SMEs, engineering support, reviewed decision cadence. No universal score or new procurement promised.
 
-**Safety:** No real agency findings, operational secrets or production telemetry in this public repo. All diagrams are static files designed to display directly in GitHub.
+**Safety:** No real Reporting Unit findings, operational secrets or production telemetry in this public repo. All diagrams are static files designed to display directly in GitHub.
