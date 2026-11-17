@@ -27,6 +27,11 @@
 <header class="topbar">
   <div class="breadcrumbs">COMPONENTS <span>/</span> DECISION WIZARD <span>/</span> <strong id="step-label">Overview</strong></div>
   <div class="top-actions">
+    <label class="eli5-control" for="eli5-toggle" title="Explain each step in everyday language">
+      <input id="eli5-toggle" type="checkbox" role="switch" aria-describedby="eli5-help">
+      <span class="eli5-toggle-track" aria-hidden="true"><span class="eli5-toggle-thumb"></span></span>
+      <span class="eli5-toggle-text"><strong>ELI5 mode</strong><small id="eli5-toggle-state">Off</small></span>
+    </label>
     <button type="button" class="button secondary small" id="load-demo">Load fictional example</button>
     <button type="button" class="button secondary small" id="reset">Reset</button>
   </div>
@@ -36,6 +41,8 @@
   <div class="eyebrow">EVIDENCE → CONTEXT → DECISION → OUTCOME</div>
   <h1 id="page-title">A decision-ready measurement, step by step.</h1>
   <p id="page-intro">Use this guided example to see how a technical observation becomes something leadership can responsibly act on.</p>
+  <div id="eli5-help" class="eli5-info" hidden><strong>PLAIN ENGLISH IS ON</strong> — Short explanations, everyday examples, and the same decision rules. <span>No real data is checked.</span></div>
+  <div id="demo-banner" class="demo-banner" hidden role="status"></div>
   <div class="progress-track" aria-label="Wizard progress"><div id="progress-fill"></div></div>
 </section>
 <div id="step-0" class="step-panel">
@@ -74,6 +81,7 @@
     <label class="field">Applicable scope verified? <small>Confirm shared-service responsibility and eligibility</small><select id="scope"><option value="unverified">Not yet verified</option><option value="verified">Verified by relevant owners</option><option value="inapplicable">Not applicable</option></select></label>
     <label class="field">Source quality / coverage <small>Applies to evidence completeness, not security outcome</small><select id="coverage"><option value="unknown">Unknown / not established</option><option value="limited">Material gaps known</option><option value="adequate">Verified sufficient for this question</option></select></label>
   </div>
+  <div id="evidence-visual" class="evidence-visual" hidden aria-live="polite"></div>
   <div id="evidence-result" class="result"></div>
 </div>
 <div id="step-3" class="step-panel" hidden>
@@ -86,6 +94,7 @@
     <label class="field full">Context and limitations <small>Explain why, with uncertainties—not a forced rating</small><textarea id="context" rows="4" placeholder="What is known, what is disputed, what may explain the trend, and what needs confirmation?"></textarea></label>
   </div>
   <div id="routing-result" class="result"></div>
+  <div id="routing-explain" class="eli5-reason" hidden></div>
 </div>
 <div id="step-4" class="step-panel" hidden>
   <div class="section-top"><span class="pill green">04 · BRIEF & REVIEW</span><h2>Same evidence, right-level presentation.</h2><p>Draft wording for different audiences, with an explicit outcome review. These are editable starting points, not approved findings.</p></div>
