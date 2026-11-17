@@ -2,7 +2,7 @@
 
 **Status:** Candidate / Under review / Assessed / Logged in approved risk register / Closed  
 **Risk scenario ID:**  
-**Agency + mission/service owner:**  
+**Reporting Unit + mission/service owner:**  
 **Measurement ID/version and historical snapshot links:**  
 **Reviewer and date:**  
 
@@ -26,7 +26,7 @@
 | Option | Expected outcome | Dependencies | Evidence needed to choose |
 |---|---|---|---|
 | Validate/investigate | | | |
-| Agency-owned remediation | | | |
+| Reporting Unit-owned remediation | | | |
 | Shared service / policy change | | | |
 | Monitor or formally accept risk | | | |
 
