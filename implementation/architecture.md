@@ -4,22 +4,22 @@
 flowchart TD
  A["Reporting Unit vulnerability management\n(asset and finding snapshots)"] --> D["Approved ingest + validation"]
  B["security monitoring and endpoint protection platforms\n(incident, endpoint, log health)"] --> D
- C["Reporting Unit CMDB / criticality / exceptions\n(authoritative denominators)"] --> D
+ C["Reporting Unit inventory / criticality / exceptions\n(authoritative denominators)"] --> D
  D --> E["Normalized, versioned metrics\ncoverage + quality + applicability"]
- E --> F["historical analytics store historical store\nmeasurements, evidence refs, decisions"]
- F --> G["business intelligence reporting layer semantic model\nagency-filtered + enterprise views"]
- G --> H["Technical + program\nagency + executive audiences"]
+ E --> F["historical evidence store\nmeasurements, evidence refs, decisions"]
+ F --> G["reporting semantic model\nReporting Unit-filtered + organization views"]
+ G --> H["Technical + program\nReporting Unit + executive audiences"]
  H --> I["Owners decide / act"]
  I --> J["Outcome checks and revisions"]
  J --> E
 ```
 
-## Existing-tool alignment (illustrative)
-- **security monitoring platform / central log platform:** incidents, alert context, expected log sources and collection health.
-- **endpoint protection platform:** device inventory and telemetry health, subject to authoritative inventory validation.
-- **Vulnerability vendor:** findings and rescan evidence; normalize rather than treating vendor grades as a common enterprise standard.
-- **historical analytics store:** persistent time-series snapshots, source identifiers, revision history and materialized reporting data.
-- **business intelligence reporting layer:** audience-specific reporting over governed measures. Use RLS and effective permissions appropriate to Reporting Unit boundaries; do not assume dashboard filters alone enforce isolation.
+## Capability alignment (illustrative)
+- **Security monitoring and event management:** incidents, alert context, expected log sources and collection health.
+- **Endpoint protection capability:** device inventory and telemetry health, subject to authoritative inventory validation.
+- **Vulnerability assessment source:** findings and rescan evidence; normalize rather than treating vendor grades as a common enterprise standard.
+- **Historical evidence store:** persistent time-series snapshots, source identifiers, revision history and materialized reporting data.
+- **Reporting and presentation layer:** audience-specific reporting over governed measures. Use RLS and effective permissions appropriate to Reporting Unit boundaries; do not assume dashboard filters alone enforce isolation.
 
 ## Recommended logical layers
 1. **Raw/source:** immutable or revision-preserving snapshots with source/update/ingest timestamps; follow retention and licensing rules.
