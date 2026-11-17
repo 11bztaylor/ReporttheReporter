@@ -53,6 +53,13 @@ flowchart LR
 - [**Program outcome and accountability review**](program/09-outcome-review-and-program-health.md): monitor whether decisions happened and had the intended effect.
 - [Research findings and primary sources](references/research-notes-2026-11.md).
 
+## Optional interactive component (HTML)
+
+The **documentation and program guidance remain the main project**. An optional, offline [Decision Wizard](components/decision-wizard/README.md) demonstrates the evidence → interpretation → decision → outcome workflow using fictional inputs. [View its HTML source](components/decision-wizard/index.html). To interact with it, download or clone the repository and open `components/decision-wizard/index.html` in a browser; GitHub does not execute HTML file previews.
+
+- **Terminology:** [Organization / Reporting Unit glossary](references/terminology.md). All core examples use capability categories, not specific product stacks.
+- **Not operational software:** no integrations, accounts, data persistence, approved security scores or automatic risk acceptance.
+
 ### Program artifacts
 - [Charter](program/01-charter.md) · [Governance](program/02-governance.md) · [Operating cycle](program/03-operating-cycle.md) · [Decision tree](program/04-decision-and-escalation.md) · [Evidence and disputes](program/05-evidence-quality-and-disputes.md) · [Pilot](program/06-pilot-roadmap.md)
 - [Architecture](implementation/architecture.md) · [Data contracts](implementation/evidence-and-history-model.md)
