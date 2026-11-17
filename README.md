@@ -24,16 +24,16 @@
 ```mermaid
 flowchart LR
   A["Technical teams\ncollect evidence"] --> B["Measurement program\nvalidates and interprets"]
-  B --> C["Agency leaders\nresolve mission-level needs"]
-  C --> D["Enterprise leaders\nmake cross-agency decisions"]
+  B --> C["Reporting Unit leaders\nresolve mission-level needs"]
+  C --> D["Enterprise leaders\nmake cross-Reporting Unit decisions"]
   D --> E["Owners implement\nactions"]
   E --> F["Measure outcomes\nand refresh evidence"]
   F --> B
 ```
 
-**What this is not:** A universal security score, an automatic vulnerability-to-budget machine, a claim that telemetry proves an agency is secure, or a replacement for incident escalation.
+**What this is not:** A universal security score, an automatic vulnerability-to-budget machine, a claim that telemetry proves an Reporting Unit is secure, or a replacement for incident escalation.
 
-**Scope:** Public, vendor-neutral program templates with *illustrative* examples. No live agency findings, production queries, internal inventory, or sensitive operational configurations should be committed here.
+**Scope:** Public, vendor-neutral program templates with *illustrative* examples. No live Reporting Unit findings, production queries, internal inventory, or sensitive operational configurations should be committed here.
 
 ## Visual quick launch
 
@@ -49,7 +49,7 @@ flowchart LR
 ### Key research upgrades (November 2026)
 
 - [**NIST IR 8286 risk-to-decision bridge**](program/07-risk-to-decision-bridge.md): avoid confusing a measured control weakness with an approved enterprise risk scenario.
-- [**Agency service participation and applicability**](program/08-agency-applicability-and-services.md): don't treat different scopes, inherited controls, and monitoring coverage as equivalent.
+- [**Reporting Unit service participation and applicability**](program/08-Reporting Unit-applicability-and-services.md): don't treat different scopes, inherited controls, and monitoring coverage as equivalent.
 - [**Program outcome and accountability review**](program/09-outcome-review-and-program-health.md): monitor whether decisions happened and had the intended effect.
 - [Research findings and primary sources](references/research-notes-2026-11.md).
 
