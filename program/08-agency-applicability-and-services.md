@@ -5,7 +5,7 @@
 ## Minimum participation registry (proposed)
 | Field | Why it matters |
 |---|---|
-| agency_id / legal and operational owner | Governance, data access |
+| reporting_unit_id / legal and operational owner | Governance, data access |
 | service_id + subscribed capabilities | Whether centralized SOC has visibility and responsibility |
 | service effective_start/end | Honest historical trend despite onboarding/offboarding |
 | asset cohort (server, workstation, critical service etc.) | Appropriate denominator |
