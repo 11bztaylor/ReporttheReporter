@@ -1,11 +1,11 @@
 # 90-day pilot roadmap
 
-**Pilot proposal, not a promise of enterprise rollout.** Pilot with 2–3 volunteer agencies with differing service participation and known asset inventory owners.
+**Pilot proposal, not a promise of enterprise rollout.** Pilot with 2–3 volunteer Reporting Units with differing service participation and known asset inventory owners.
 
 ## Days 1–30 — Establish legitimacy
 - Name sponsor, program owner and risk approver.
 - Select concrete leadership decision questions before measures.
-- Agree agency scope, asset inventory authority, control applicability, reporting audience and security boundaries.
+- Agree Reporting Unit scope, asset inventory authority, control applicability, reporting audience and security boundaries.
 - Prioritize three candidate measurements: vulnerability remediation, EDR coverage, security logging coverage.
 - Approve draft metric specifications and escalation/dispute rules.
 
@@ -13,15 +13,15 @@
 
 ## Days 31–60 — Validate evidence
 - Connect available read-only sources through approved paths.
-- Normalize agency/system/source IDs, event and snapshot timestamps.
-- Verify denominators and collection health with agency SMEs.
+- Normalize Reporting Unit/system/source IDs, event and snapshot timestamps.
+- Verify denominators and collection health with Reporting Unit SMEs.
 - Capture recurring snapshots, methodology version and data gaps.
-- Create technical and program views; test one agency challenge.
+- Create technical and program views; test one Reporting Unit challenge.
 
 **Exit:** traceable measurements, reproducible snapshots, confidence labels.
 
 ## Days 61–90 — Demonstrate decisions
-- Review preliminary trends with agency leaders.
+- Review preliminary trends with Reporting Unit leaders.
 - Select one validated persistent condition and one known visibility gap.
 - Build decision packets and show alternatives without precommitting budget.
 - Record action owners, review dates and accepted/monitoring decisions.
