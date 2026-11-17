@@ -1,14 +1,14 @@
 # Metric catalog — candidate measurements
 
-**These are proposed examples**, not NIST-prescribed KPIs or live agency results. Each must have an approved metric specification before executive publication.
+**These are proposed examples**, not NIST-prescribed KPIs or live Reporting Unit results. Each must have an approved metric specification before executive publication.
 
 | Candidate measure | Operational evidence / source | Decision-level interpretation | Critical caveat |
 |---|---|---|---|
 | Vulnerability discovery, closure, overdue duration | Scanner/vulnerability platform + asset inventory | Are high-consequence exposures persistently exceeding target? | Scope, severity, exposure path, and rescans |
 | Scan coverage | Eligible inventory joined to successful authenticated scans | How much can we actually measure? | Inventory denominator may be wrong |
-| Endpoint detection protection/health | Defender endpoint inventory + authoritative devices | Are priority endpoints consistently monitored? | Enrolled != healthy; exclusions |
-| Security log onboarding and freshness | Expected log source registry + Sentinel/ADX | Which critical systems are blind spots? | Volume != usefulness; outage/latency |
-| Security incident triage/containment timing | SIEM incidents + case management | Can operations act within agreed objectives? | Case clock normalization and severity |
+| Endpoint detection protection/health | endpoint protection platform endpoint inventory + authoritative devices | Are priority endpoints consistently monitored? | Enrolled != healthy; exclusions |
+| Security log onboarding and freshness | Expected log source registry + security monitoring platform/historical analytics store | Which critical systems are blind spots? | Volume != usefulness; outage/latency |
+| Security incident triage/containment timing | security monitoring incidents + case management | Can operations act within agreed objectives? | Case clock normalization and severity |
 | Control configuration compliance | Configuration management | How consistently are baselines enforced? | Exception management and applicability |
 | Privileged identity and unauthorized access findings | Identity provider + investigations | Are key access controls producing expected outcomes? | Raw failed-login count is misleading |
 | Recovery test results | Backup and DR owners | Can prioritized services recover within objectives? | Need tested, business-owned results |
