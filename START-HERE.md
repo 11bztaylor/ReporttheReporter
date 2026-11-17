@@ -7,6 +7,7 @@
 | I need to… | Start here |
 |---|---|
 | **Show leadership, visually** | [Four picture slides + short speaking notes](briefings/README.md) |
+| **Try the optional HTML wizard** | [Decision Wizard component](components/decision-wizard/README.md) |
 | Understand the program at a glance | [Program charter](program/01-charter.md) |
 | Understand how measurements become risk | [Risk-to-decision bridge](program/07-risk-to-decision-bridge.md) |
 | Understand Reporting Unit differences and responsibility | [Applicability & central service registry](program/08-Reporting Unit-applicability-and-services.md) |
