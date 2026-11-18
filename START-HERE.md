@@ -9,6 +9,11 @@ We are not trying to recreate every vendor scorecard. We are creating **one shar
 | Get the full program rationale and scope | [MSSP strategy](program/10-measurement-strategy.md) |
 | Select executive questions | [Executive decision catalog](metrics/executive-decision-catalog.md) |
 | Browse candidate metrics | [Master metric catalog](metrics/master-metric-catalog.md) |
+| Review all 46 measures and their executive decision paths | [Full traceability](metrics/decision-to-measure-traceability.md) |
+| See what the three reporting dashboards actually communicate | [Reporting blueprints](briefings/three-dashboard-reporting-blueprints.md) |
+| Draft a real leadership report (template only) | [Reporting pack](templates/three-level-reporting-pack.md) |
+| Prepare customer collaboration questions | [Engagement question bank](templates/customer-engagement-question-bank.md) |
+| See the metric approval/decision lifecycle | [Measurement lifecycle](program/11-measurement-lifecycle.md) |
 | See the same measure at three reporting levels | [Reporting crosswalk](metrics/three-level-crosswalk.md) |
 | Begin with only inherited logs | [Phase 0: observation baseline](metrics/phase-0-observation-baseline.md) |
 | Avoid overclaiming data | [Evidence and reporting rules](metrics/evidence-and-reporting-rules.md) |

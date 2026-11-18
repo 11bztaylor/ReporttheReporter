@@ -47,6 +47,10 @@ Program documentation defines what executives, managers, technical teams and cus
 | [Executive decision catalog](../metrics/executive-decision-catalog.md) | Choose the outcomes leadership actually needs |
 | [Metric adoption roadmap](../metrics/measurement-adoption-roadmap.md) | Preserve long-term executive ambition while showing customer engagement and measurable readiness separately |
 | [Master candidate metric catalog](../metrics/master-metric-catalog.md) | Inventory measures across capabilities with illustrative evidence and decisions |
+| [Complete decision-to-measure mapping](../metrics/decision-to-measure-traceability.md) | Connect all 46 candidate IDs to the 12 executive decisions without duplicating definitions |
+| [Reporting pack](../templates/three-level-reporting-pack.md) | Communicate reviewed evidence consistently to executive, management and technical audiences |
+| [Customer engagement questions](../templates/customer-engagement-question-bank.md) | Use unavailable mature metrics to start useful conversations |
+| [Measurement lifecycle](11-measurement-lifecycle.md) | Promote an observation to decision-grade measurement only when justified |
 | [Three-level crosswalk](../metrics/three-level-crosswalk.md) | Trace an executive question to manager measures and technical evidence |
 | [Evidence and language rules](../metrics/evidence-and-reporting-rules.md) | Keep scope, confidence, uncertainty and claims honest |
 | [Inherited-logs starting baseline](../metrics/phase-0-observation-baseline.md) | What can be said before customers or denominators are validated |

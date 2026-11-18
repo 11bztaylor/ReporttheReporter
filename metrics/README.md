@@ -9,6 +9,7 @@
 | Step | Program artifact |
 |---|---|
 | What does an executive need to decide? | [12 executive decision themes](executive-decision-catalog.md) |
+| Which of the 46 measures primarily supports which executive question? | [Full decision-to-measure map](decision-to-measure-traceability.md) |
 | Which management and technical measurements support it? | [Three-level crosswalk](three-level-crosswalk.md) |
 | How does each metric progress from introductory to mature? | [Adoption roadmap](measurement-adoption-roadmap.md) |
 | What might we measure or use as evidence? | [Master catalog](master-metric-catalog.md) |

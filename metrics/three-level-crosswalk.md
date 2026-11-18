@@ -2,6 +2,8 @@
 
 **Purpose:** Explain which proposed manager measurements and technical observations justify an executive statement. These levels are *communication and responsibility*, not software roles or database permissions. All examples are hypothetical and require local approval.
 
+The following is the **executive-to-level narrative crosswalk**. For an exhaustive **all-46-ID mapping to executive themes**, see [complete decision-to-measure traceability](decision-to-measure-traceability.md).
+
 ## Canonical traceability matrix
 
 | Executive question | Management explanations / measures | Technical evidence candidates | Typical decision / handoff |

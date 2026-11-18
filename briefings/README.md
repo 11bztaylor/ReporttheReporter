@@ -22,6 +22,8 @@ These *older* illustrative materials remain as supporting examples. Their additi
 - [One-page briefing](00-one-page-brief.md)
 - [Evidence-to-decision text](01-evidence-to-decision.md) · [Presentation layers](02-presentation-layers.md) · [Decision gates](03-decision-tree.md) · [Vulnerability walkthrough](04-vulnerability-walkthrough.md) · [Feedback](05-feedback-loop.md)
 
+For the words and evidence fields to put into those three dashboard views, see the [three-dashboard reporting blueprints](three-dashboard-reporting-blueprints.md) and the [reusable report pack](../templates/three-level-reporting-pack.md).
+
 ## Presentation order for a first MSSP takeover conversation
 
 1. Show [Phase 0 baseline](visuals/06-phase-0-baseline.svg).

@@ -15,6 +15,9 @@
 | **Know what leadership should see** | [12 executive decision themes](metrics/executive-decision-catalog.md) |
 | **See which metrics are introductory vs mature** | [Measurement adoption roadmap](metrics/measurement-adoption-roadmap.md) |
 | **Explore metrics that might support those themes** | [46 candidate measures](metrics/master-metric-catalog.md) |
+| **Trace every candidate metric to an executive decision** | [Complete 46-metric mapping](metrics/decision-to-measure-traceability.md) |
+| **See what each of the three dashboards should report** | [Three-audience reporting blueprints](briefings/three-dashboard-reporting-blueprints.md) |
+| **Use the communication templates** | [Three-level reporting pack](templates/three-level-reporting-pack.md) / [Customer engagement questions](templates/customer-engagement-question-bank.md) |
 | **Trace the three reporting levels** | [Executive → management → technical crosswalk](metrics/three-level-crosswalk.md) |
 | **Start with logs but no validated customer context** | [Phase 0 observation baseline](metrics/phase-0-observation-baseline.md) |
 | **Use trustworthy labels and explain unknowns** | [Evidence and reporting rules](metrics/evidence-and-reporting-rules.md) |
