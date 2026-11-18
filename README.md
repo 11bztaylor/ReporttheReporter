@@ -13,6 +13,7 @@
 |---|---|
 | **Understand the MSSP model and boundaries** | [Measurement strategy](program/10-measurement-strategy.md) |
 | **Know what leadership should see** | [12 executive decision themes](metrics/executive-decision-catalog.md) |
+| **See which metrics are introductory vs mature** | [Measurement adoption roadmap](metrics/measurement-adoption-roadmap.md) |
 | **Explore metrics that might support those themes** | [46 candidate measures](metrics/master-metric-catalog.md) |
 | **Trace the three reporting levels** | [Executive → management → technical crosswalk](metrics/three-level-crosswalk.md) |
 | **Start with logs but no validated customer context** | [Phase 0 observation baseline](metrics/phase-0-observation-baseline.md) |

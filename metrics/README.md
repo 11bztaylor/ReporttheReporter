@@ -10,6 +10,7 @@
 |---|---|
 | What does an executive need to decide? | [12 executive decision themes](executive-decision-catalog.md) |
 | Which management and technical measurements support it? | [Three-level crosswalk](three-level-crosswalk.md) |
+| How does each metric progress from introductory to mature? | [Adoption roadmap](measurement-adoption-roadmap.md) |
 | What might we measure or use as evidence? | [Master catalog](master-metric-catalog.md) |
 | What may we truthfully claim? | [Evidence / reporting rules](evidence-and-reporting-rules.md) |
 | How do we start with logs but without customer scope? | [Phase 0 observation baseline](phase-0-observation-baseline.md) |

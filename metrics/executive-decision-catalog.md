@@ -17,6 +17,12 @@
 | E11 | **Shared and third-party dependencies:** Can a common provider or dependency impair multiple customers? | Validated material shared dependency concerns | Coordinate enterprise-level contingency and action | V/R |
 | E12 | **Action and improvement:** Did an authorized decision lead to the intended result? | Material actions closed with independently checked outcomes | Change treatment, sustain, or stop an ineffective activity | D/M |
 
+## Adoption horizon — does not reduce the end-state
+
+Every executive theme stays in this catalog **from the beginning**. The stage at which it becomes a reliable *outcome* varies by customer and metric. [See the adoption roadmap](measurement-adoption-roadmap.md) for introductory conversations, customer-engagement prerequisites, and mature outcomes—including recovery testing that cannot be expected from inherited logs.
+
+**Do not remove E04–E11 just because the inherited data can't measure them.** Display them separately as planned development or customer-engagement topics. "Not assessable" is a *reporting status*, not an argument that the topic has no value.
+
 ## The first executive presentation (when we only inherited logs)
 
 **Present E01, E02 (observed evidence health only), E03 and E12 (measurement-program follow-through only).** Mark E04–E11 **"not yet assessable"** unless a specific supported observation warrants a narrow, correctly worded notification. Do not manufacture zeros, targets, 100% availability or "secure" labels.

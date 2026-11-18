@@ -9,6 +9,8 @@
 | Intended executive / management / technical use | |
 | Reporting lens | Customer outcome / MSSP service assurance / measurement trust |
 | Scope and applicable customer/service/cohort | |
+| Adoption horizon and first enabling customer/provider activity | START / BUILD / MATURE (not a customer security rating) |
+| Current measurement adoption status | Not assessed / engagement requested / defining / awaiting validation / measured / not applicable |
 | Phase readiness | Discovery / validated scope / mature / authorized risk context |
 | Responsible technical owner and decision authority | |
 | Candidate evidence **types**, not mandatory vendors | |

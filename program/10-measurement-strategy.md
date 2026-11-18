@@ -45,6 +45,7 @@ Program documentation defines what executives, managers, technical teams and cus
 | Work product | Purpose |
 |---|---|
 | [Executive decision catalog](../metrics/executive-decision-catalog.md) | Choose the outcomes leadership actually needs |
+| [Metric adoption roadmap](../metrics/measurement-adoption-roadmap.md) | Preserve long-term executive ambition while showing customer engagement and measurable readiness separately |
 | [Master candidate metric catalog](../metrics/master-metric-catalog.md) | Inventory measures across capabilities with illustrative evidence and decisions |
 | [Three-level crosswalk](../metrics/three-level-crosswalk.md) | Trace an executive question to manager measures and technical evidence |
 | [Evidence and language rules](../metrics/evidence-and-reporting-rules.md) | Keep scope, confidence, uncertainty and claims honest |

@@ -4,6 +4,10 @@
 
 **Objective:** Build an honest **observation and measurement-readiness baseline** before attempting a customer posture assessment. This phase does **not** require counts, coverage percentages, rankings or target achievement.
 
+## Long-term measures are still part of the plan
+
+Phase 0 only limits **which conclusions we can support today**. It does **not** remove mature outcomes (recovery testing, business impact, meaningful control effectiveness) from the program. Use [the adoption roadmap](measurement-adoption-roadmap.md) to convert unavailable outcome measurements into constructive customer engagement and capability-development questions.
+
 ## Initial status board (qualitative)
 
 | What the dashboard asks | Suggested label | Evidence to seek (examples, not prescribed tools) | What we can say today |
