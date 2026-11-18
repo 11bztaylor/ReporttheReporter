@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="850" viewBox="0 0 1600 850" role="img" aria-label="MSSP Phase 0 dashboard design, inherited logs but no validated customer scope or denominator">
+<rect width="1600" height="850" fill="#0b1220"/><g font-family="Arial,Helvetica,sans-serif">
+<text x="75" y="66" font-size="43" font-weight="700" fill="#f7fbff">PHASE 0 · MSSP OBSERVATION BASELINE</text>
+<text x="77" y="108" font-size="25" fill="#a4b4c9">Inherited logs are available. Customer inventories and agreed monitoring scope are not yet confirmed.</text>
+<rect x="75" y="155" width="690" height="170" rx="18" fill="#132d3d" stroke="#289c9b" stroke-width="3"/>
+<text x="108" y="209" font-size="24" fill="#a4e2e3">EVIDENCE</text><text x="108" y="259" font-size="39" fill="#ffffff" font-weight="700">OBSERVED</text><text x="108" y="300" font-size="20" fill="#bdd0dc">What is present, dated and interpretable?</text>
+<rect x="835" y="155" width="690" height="170" rx="18" fill="#3a2c21" stroke="#d3a45f" stroke-width="3"/>
+<text x="870" y="209" font-size="24" fill="#ffcf8c">CUSTOMER INVENTORY</text><text x="870" y="259" font-size="39" fill="#ffffff" font-weight="700">UNVERIFIED</text><text x="870" y="300" font-size="20" fill="#e9cda8">Do not invent the total expected population.</text>
+<rect x="75" y="352" width="690" height="170" rx="18" fill="#2c2b3a" stroke="#9d8ac7" stroke-width="3"/>
+<text x="108" y="405" font-size="24" fill="#dacaff">EVIDENCE QUALITY</text><text x="108" y="457" font-size="39" fill="#ffffff" font-weight="700">VALIDATION NEEDED</text><text x="108" y="497" font-size="20" fill="#d3c7e4">Check source time, identities and usability.</text>
+<rect x="835" y="352" width="690" height="170" rx="18" fill="#2c2b3a" stroke="#9d8ac7" stroke-width="3"/>
+<text x="870" y="405" font-size="24" fill="#dacaff">SERVICE COMMITMENTS</text><text x="870" y="457" font-size="39" fill="#ffffff" font-weight="700">NOT CONFIRMED</text><text x="870" y="497" font-size="20" fill="#d3c7e4">No SLA or coverage claim until obligations are known.</text>
+<rect x="75" y="556" width="1450" height="174" rx="19" fill="#132337" stroke="#3f6081" stroke-width="2"/>
+<text x="112" y="612" font-size="29" font-weight="700" fill="#f7fbff">NEXT DECISION  ·  Confirm customer scope and provider responsibilities</text>
+<text x="112" y="658" font-size="24" fill="#c2d3e6">Customer: validate services, ownership and applicability.  MSSP: validate inherited evidence and collection quality.</text>
+<text x="112" y="703" font-size="22" fill="#a2b8cb">Security coverage, protection effectiveness, posture grades and business impact: NOT YET ASSESSABLE.</text>
+<text x="77" y="790" font-size="24" fill="#f9c97d" font-weight="700">NO INVENTED COUNTS.  NO BLENDED VENDOR SCORES.  UNKNOWN ≠ INSECURE.</text>
+</g></svg>

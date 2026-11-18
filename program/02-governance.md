@@ -1,38 +1,41 @@
-# Governance, audiences and accountability
+# MSSP measurement program governance and decision responsibilities
 
-**Important:** NIST 800-137's organizational tiers are **Tier 1 organization**, **Tier 2 mission/business processes**, and **Tier 3 information systems**. The **measurement program** below is a proposed cross-cutting function, *not* an additional official NIST tier.
+**Scope:** Who validates evidence, provides context, makes decisions and follows up. This is *not* a dashboard access-control or technical multi-tenancy plan.
 
-| Role | Responsibility | Typical output |
+## Decision and assurance responsibilities (proposed)
+
+| Role | Program responsibility | Must not claim |
 |---|---|---|
-| Executive sponsor / enterprise risk authority | Sponsor program, approve strategic priorities, authorize enterprise investment or risk decisions | Decision and funding direction |
-| Program owner / measurement lead | Approve cadence, coordinate definitions, quality review, cross-Reporting Unit comparisons, and decision register | Validated interpretation |
-| Security operations / security monitoring / vulnerability engineers | Supply source evidence, denominator and collection limitations; investigate technical anomalies | Technical facts and evidence refs |
-| Reporting Unit system/asset owners and SMEs | Confirm inventory, scope, criticality, service participation, remediation and local context | Reporting Unit validation |
-| Risk/GRC/CISO function | Set policy thresholds, risk criteria, exceptions, appeals and acceptance authorities | Decision rules |
-| Reporting Unit IT and business leaders | Prioritize local remediation, allocate resources within authority; escalate enterprise dependencies | Local actions and impacts |
-| Data/BI engineering | Maintain ingestion, historical snapshots, metric versions, RBAC and presentation | Trusted data products |
+| Executive sponsor / enterprise leadership | Approve program priorities and cross-customer service investments; make decisions within authority | Own all customer risk by default |
+| MSSP measurement lead | Keep metric definitions, evidence quality, reporting language, history and outcomes consistent | Assert business impact without customer/risk authority |
+| MSSP technical/security teams | Produce and validate observations; explain collection limits, test findings and provider service gaps | Equate source volume or tool scores with customer security |
+| MSSP service owner | Clarify and deliver verified MSSP service commitments; own provider-caused shortfalls | Infer the entire customer's environment from contracted scope |
+| Customer technical / business owners | Confirm inventory, service applicability, criticality, exceptions, constraints and customer actions | Treat unverified self-report as provider validation |
+| Customer / authorized risk authorities | Assess consequential risk scenarios; approve response or risk acceptance under policy | Derive formal risk solely from a metric or vendor grade |
+| Program reviewer / governance representative | Review disputes, thresholds, metric usefulness and methodology changes | Change published evidence silently |
 
-## RACI (proposed; ratify in pilot)
-**R** responsible; **A** accountable; **C** consulted; **I** informed.
+## Reporting — three connected views
 
-| Activity | Sponsor | Program lead | Technical team | Reporting Unit | Risk/GRC |
-|---|---|---|---|---|---|
-| Approve charter | A | R | C | C | C |
-| Define calculation + evidence | I | A | R | C | C |
-| Validate Reporting Unit scope / criticality | I | R | C | A | C |
-| Approve thresholds / escalations | C | R | C | C | A |
-| Produce measurements | I | A | R | C | C |
-| Interpret Reporting Unit mission impact | I | R | C | A | C |
-| Enterprise investment decision | A | R | C | C | C |
-| Formal risk acceptance | I | C | C | R | A* |
-| Maintain decision / outcome record | I | A | R | R | C |
+1. **Executive:** material condition, potential customer/mission consequence, evidence limits, required decision and tested outcome.
+2. **Technical manager:** affected customer/capability, validated trend, competing explanations, responsibility, actions and next review.
+3. **Technical:** what was observed, at what time, from what evidence, with what quality controls, disagreements and reproducible checks.
 
-*Risk acceptance authority must follow approved organizational policy; risk/GRC may advise or coordinate rather than personally accept risk.
+The three are **presentations of one evidence chain**, not separate metric stores. Customer validation and risk approvals are *handoffs*, not a fourth executive-dashboard level or an extra NIST organizational tier.
 
-## Presentation by level
-1. **Tier 3 / technicians:** evidence rows, timestamps, vulnerabilities, sensors, raw event and inventory joins, errors.
-2. **Measurement program (cross-cutting):** verified numerator/denominator, trends, coverage, confidence, methodology, exceptions, candidate decisions.
-3. **Tier 2 / Reporting Unit leaders:** mission/service exposure, obstacles, available remediation options, local accountability.
-4. **Tier 1 / executives:** portfolio patterns, high-consequence exposure, blind spots, requested policy/funding decisions, outcomes.
+## Proposed decision path
 
-Every summary links back to the same underlying evidence using least-privilege permissions. Separate Reporting Unit visibility and centralized reporting access. See [visual](../briefings/01-evidence-to-decision.md).
+Observation → evidence/quality check → applicability and customer context → provider-owned fix or customer-owned action → optional authorized risk assessment → decision → verified outcome.
+
+A scope disagreement becomes an evidence-validation issue, not automatically a customer performance failure. A source failure requires establishing that a corresponding source was **expected** before an SLA failure claim. A critical incident bypasses routine reporting review and uses established incident procedures.
+
+## RACI principles rather than invented local assignments
+
+- The **provider** is accountable for its contractually defined service-delivery quality.
+- The **customer** is typically accountable for its inventory, owned systems and mission context.
+- **Shared responsibilities** must be written and reviewed rather than silently assigned.
+- **Risk acceptance** belongs to the authority designated in approved policy.
+- The **measurement program** verifies what can be concluded and preserves decision/outcome history; it does not automatically own the resulting risk.
+
+Ratify specific roles, escalations and thresholds in the pilot. Access enforcement, portal roles and connector architecture are separate engineering work.
+
+See [charter](01-charter.md), [strategy](10-measurement-strategy.md), [applicability model](08-agency-applicability-and-services.md), and [risk bridge](07-risk-to-decision-bridge.md).

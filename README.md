@@ -1,73 +1,63 @@
 # Report the Reporter
-## Enterprise Cybersecurity Measurement & Decision Support Program
+## Managed Cybersecurity Assurance & Performance Program (proposed)
 
-**Status:** PROPOSED — reference program design, not an approved or deployed security assessment.  
-**Purpose:** Convert continuous technical evidence into *defensible decisions*, track outcomes, and avoid the recurring cycle of dashboards that never change anything.
+**Status:** Proposed, vendor-neutral MSSP measurement and decision-support program. Not an approved customer security assessment, operational dashboard, official risk score, or deployed service.
 
-> **The operating question:** What persistent condition needs a decision, how confident are we in the evidence, who can act, and did the action work?
+**Purpose:** Turn technical observations into clear, defensible measurements, responsible communication, useful decisions and verified outcomes **across multiple customers**. Distinguish (1) customer security outcomes, (2) MSSP service assurance, and (3) the trustworthiness / limits of the underlying evidence.
 
-### Start here (choose one path)
+> **The governing question:** What can we responsibly claim, what remains unknown, what decision is needed, who owns the action, and did it work?
 
-| I need to… | Open |
+### Start with the program, not the implementation
+
+| Need | Read |
 |---|---|
-| Understand this in two minutes | [START HERE](START-HERE.md) |
-| Brief a leader with visuals | [Leadership briefing kit](briefings/README.md) |
-| Define or approve the program | [Program charter](program/01-charter.md) |
-| See who owns the work | [Governance & RACI](program/02-governance.md) |
-| See how a finding is escalated | [Decision & escalation rules](program/04-decision-and-escalation.md) |
-| Choose technical measurements | [Metric catalog](metrics/README.md) |
-| Implement an initial pilot | [90-day pilot plan](program/06-pilot-roadmap.md) |
-| Review the standards | [Standards map](references/standards-map.md) |
+| **Understand the MSSP model and boundaries** | [Measurement strategy](program/10-measurement-strategy.md) |
+| **Know what leadership should see** | [12 executive decision themes](metrics/executive-decision-catalog.md) |
+| **Explore metrics that might support those themes** | [46 candidate measures](metrics/master-metric-catalog.md) |
+| **Trace the three reporting levels** | [Executive → management → technical crosswalk](metrics/three-level-crosswalk.md) |
+| **Start with logs but no validated customer context** | [Phase 0 observation baseline](metrics/phase-0-observation-baseline.md) |
+| **Use trustworthy labels and explain unknowns** | [Evidence and reporting rules](metrics/evidence-and-reporting-rules.md) |
+| **Explain the program visually** | [Three-audience diagram](briefings/visuals/05-three-audience-measurement.svg) / [Phase 0 diagram](briefings/visuals/06-phase-0-baseline.svg) |
+| **Define and approve a metric** | [Metric specification](templates/metric-specification.md) |
+| **Review the public sources** | [Research source review](references/measurement-source-review-2026-11-18.md) |
+| **See governance, decisions and pilot guidance** | [Program charter](program/01-charter.md) / [Program index](START-HERE.md) |
 
-### How it works
+### One integrated measurement program
+
+The program *uses concepts* from [NIST SP 800-55](references/standards-map.md) (measurement), NIST SP 800-137 (continuous monitoring), NIST CSF / CISA CDM (outcome organization and cross-customer visibility), NIST IR 8286 (risk handoff), and exposure-management practice (e.g., CTEM). **These are complementary references, not four things to build independently.**
 
 ```mermaid
-flowchart LR
-  A["Technical teams\ncollect evidence"] --> B["Measurement program\nvalidates and interprets"]
-  B --> C["Reporting Unit leaders\nresolve mission-level needs"]
-  C --> D["Enterprise leaders\nmake cross-Reporting Unit decisions"]
-  D --> E["Owners implement\nactions"]
-  E --> F["Measure outcomes\nand refresh evidence"]
-  F --> B
+flowchart TB
+ A["Evidence and customer declarations\nwith source/time/limitations"] --> B["One metric catalog and validation rules"]
+ B --> T["Technical: What is true?"]
+ T --> M["Manager: Why, who owns it, and what changes?"]
+ M --> E["Executive: What decision matters?"]
+ E --> D["Authorized action / customer collaboration"]
+ D --> O["Verified outcome review"]
+ O --> B
 ```
 
-**What this is not:** A universal security score, an automatic vulnerability-to-budget machine, a claim that telemetry proves an Reporting Unit is secure, or a replacement for incident escalation.
+### The most important initial condition
 
-**Scope:** Public, vendor-neutral program templates with *illustrative* examples. No live Reporting Unit findings, production queries, internal inventory, or sensitive operational configurations should be committed here.
+**Phase 0:** New MSSP with inherited log access, **before** customers have confirmed their inventories, responsibilities, critical services or service commitments. Start with observable evidence, source usability, provenance, tentative attribution and questions to validate. **Do not fabricate device totals, coverage percentages, risk grades, missed-SLA claims, or 'fully protected' judgments.**
 
-## Visual quick launch
+![Phase 0 observation baseline](briefings/visuals/06-phase-0-baseline.svg)
 
-[**OPEN THE VISUAL PRESENTATION KIT**](briefings/README.md) — four full-size SVG slides you can open directly from GitHub:
+### What belongs in this program
 
-![Evidence to decision](briefings/visuals/01-operating-model.svg)
+- Executive decision questions; one canonical candidate metric catalog; definitions; example *types* of supporting evidence.
+- Clear customer applicability, service-scope assumptions, reporting limitations, measurement-readiness rules and review language.
+- Executive, manager and technical communication of the **same evidence**.
+- Customer-provider responsibility boundaries, authorized decision routing, outcome reviews and metric maintenance.
 
-- [Technical evidence → program → leadership](briefings/visuals/01-operating-model.svg)
-- [One finding, four leadership views](briefings/visuals/02-four-views.svg)
-- [Decision quality gates](briefings/visuals/03-decision-gates.svg)
-- [Example executive decision panel](briefings/visuals/04-executive-panel.svg)
+**Out of scope here:** dashboard software, platform selection, queries, connectors, permissions, RBAC, data tenancy implementation, service credentials, APIs, deployment pipelines and storage architecture. Implementation choices belong to a separate engineering workstream.
 
-### Key research upgrades (November 2026)
+### Existing supporting materials
 
-- [**NIST IR 8286 risk-to-decision bridge**](program/07-risk-to-decision-bridge.md): avoid confusing a measured control weakness with an approved enterprise risk scenario.
-- [**Reporting Unit service participation and applicability**](program/08-Reporting Unit-applicability-and-services.md): don't treat different scopes, inherited controls, and monitoring coverage as equivalent.
-- [**Program outcome and accountability review**](program/09-outcome-review-and-program-health.md): monitor whether decisions happened and had the intended effect.
-- [Research findings and primary sources](references/research-notes-2026-11.md).
+- [Program governance](program/02-governance.md), [operating cycle](program/03-operating-cycle.md), [risk-to-decision guidance](program/07-risk-to-decision-bridge.md), [customer and service applicability](program/08-agency-applicability-and-services.md), [program effectiveness](program/09-outcome-review-and-program-health.md).
+- [Initial measure examples](metrics/README.md), [presentation kit](briefings/README.md), [standards map](references/standards-map.md).
+- **Optional demonstration only:** [HTML decision wizard](components/decision-wizard/README.md), including ELI5 mode. It is not the program and does not prove customer coverage.
 
-## Optional interactive component (HTML)
+**Safety:** This public repo contains fictional examples and general documentation only. Do not commit actual customer inventories, restricted findings, production logs, operational credentials, or regulated information.
 
-The **documentation and program guidance remain the main project**. An optional, offline [Decision Wizard](components/decision-wizard/README.md) demonstrates the evidence → interpretation → decision → outcome workflow using fictional inputs. [View its HTML source](components/decision-wizard/index.html). To interact with it, download or clone the repository and open `components/decision-wizard/index.html` in a browser; GitHub does not execute HTML file previews.
-
-- **Terminology:** [Organization / Reporting Unit glossary](references/terminology.md). All core examples use capability categories, not specific product stacks.
-- **Not operational software:** no integrations, accounts, data persistence, approved security scores or automatic risk acceptance.
-
-### Program artifacts
-- [Charter](program/01-charter.md) · [Governance](program/02-governance.md) · [Operating cycle](program/03-operating-cycle.md) · [Decision tree](program/04-decision-and-escalation.md) · [Evidence and disputes](program/05-evidence-quality-and-disputes.md) · [Pilot](program/06-pilot-roadmap.md)
-- [Architecture](implementation/architecture.md) · [Data contracts](implementation/evidence-and-history-model.md)
-- [Metric catalog](metrics/README.md) · [Metric specification template](templates/metric-specification.md) · [Decision record template](templates/decision-record.md)
-- [Leadership briefing kit](briefings/README.md) · [Standards map](references/standards-map.md)
-
-### Governing principle
-
-A metric without a defined decision, applicable scope, evidence quality, accountable owner and follow-up is **an observation**, not a leadership KPI.
-
-*Maintainer note: this repository is a proposed implementation aligned with published guidance; it is not an official NIST, CIS, or CISA publication.*
+**Principle:** A metric without a suitable scope, credible evidence, an authorized decision, clear limitations and an outcome check is an observation—not an executive assurance claim.

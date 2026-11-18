@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860" role="img" aria-label="MSSP measurement program: one evidence foundation, three reporting views, decision feedback">
+<rect width="1600" height="860" fill="#0b1220"/><g font-family="Arial,Helvetica,sans-serif">
+<text x="80" y="75" fill="#f8fafc" font-size="46" font-weight="700">ONE MEASUREMENT PROGRAM</text>
+<text x="82" y="117" fill="#a8b9d1" font-size="24">Multiple MSSP customers · vendor-neutral evidence · three audiences · one feedback loop</text>
+<rect x="80" y="168" width="1440" height="118" rx="18" fill="#15263a" stroke="#344b63" stroke-width="2"/>
+<text x="110" y="212" fill="#f8fafc" font-weight="700" font-size="27">COMMON EVIDENCE FOUNDATION</text>
+<text x="110" y="249" fill="#b9c9da" font-size="24">Customer declarations   ·   Observed activity   ·   Scope and timestamps   ·   Validation and uncertainty</text>
+<path d="M800 286 V335" stroke="#54b6f4" stroke-width="5"/><path d="M789 323 L800 339 L811 323" fill="none" stroke="#54b6f4" stroke-width="5"/>
+<rect x="80" y="342" width="1440" height="105" rx="18" fill="#123b49" stroke="#2d9e9c" stroke-width="2"/>
+<text x="110" y="386" fill="#d4ffff" font-size="28" font-weight="700">ONE APPROVED METRIC CATALOG</text>
+<text x="110" y="422" fill="#b6e7e8" font-size="23">Same definitions · scope rules · provider vs customer attribution · evidence quality · decision trail</text>
+<path d="M340 447 V493 M800 447 V493 M1260 447 V493" stroke="#54b6f4" stroke-width="4"/>
+<rect x="80" y="498" width="450" height="215" rx="20" fill="#182942" stroke="#3766a3" stroke-width="2"/>
+<rect x="575" y="498" width="450" height="215" rx="20" fill="#182942" stroke="#3766a3" stroke-width="2"/>
+<rect x="1070" y="498" width="450" height="215" rx="20" fill="#182942" stroke="#3766a3" stroke-width="2"/>
+<text x="109" y="555" fill="#9ac9ff" font-size="30" font-weight="700">TECHNICAL</text><text x="109" y="602" fill="#ffffff" font-size="25">What does the evidence show?</text><text x="109" y="649" fill="#b5c2d6" font-size="23">Source, freshness, validation,</text><text x="109" y="682" fill="#b5c2d6" font-size="23">unknowns and counterevidence</text>
+<text x="604" y="555" fill="#9ac9ff" font-size="30" font-weight="700">MANAGEMENT</text><text x="604" y="602" fill="#ffffff" font-size="25">Why, who owns it, what next?</text><text x="604" y="649" fill="#b5c2d6" font-size="23">Scope, trend, cause, service</text><text x="604" y="682" fill="#b5c2d6" font-size="23">obligations and follow-up</text>
+<text x="1099" y="555" fill="#9ac9ff" font-size="30" font-weight="700">EXECUTIVE</text><text x="1099" y="602" fill="#ffffff" font-size="25">What decision matters?</text><text x="1099" y="649" fill="#b5c2d6" font-size="23">Consequence, confidence,</text><text x="1099" y="682" fill="#b5c2d6" font-size="23">authority and outcome</text>
+<path d="M530 603 H566 M1025 603 H1061" stroke="#8dc1ef" stroke-width="4"/><path d="M554 594 L569 603 L554 612 M1049 594 L1064 603 L1049 612" fill="none" stroke="#8dc1ef" stroke-width="4"/>
+<rect x="80" y="754" width="1440" height="62" rx="15" fill="#23354b"/>
+<text x="110" y="793" fill="#dce8f5" font-size="23">FEEDBACK: Authorized actions and customer validation produce new evidence; verify the outcome.</text>
+</g></svg>

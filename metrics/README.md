@@ -1,39 +1,34 @@
-# Metric catalog — candidate measurements
+# MSSP measurement catalog
 
-**These are proposed examples**, not NIST-prescribed KPIs or live Reporting Unit results. Each must have an approved metric specification before executive publication.
+**Primary register:** [46 candidate metrics](master-metric-catalog.md), organized across visibility, service assurance, exposure, detection/response, identity, internet/network, data/application, resilience, third parties and governance.
 
-| Candidate measure | Operational evidence / source | Decision-level interpretation | Critical caveat |
-|---|---|---|---|
-| Vulnerability discovery, closure, overdue duration | Scanner/vulnerability platform + asset inventory | Are high-consequence exposures persistently exceeding target? | Scope, severity, exposure path, and rescans |
-| Scan coverage | Eligible inventory joined to successful authenticated scans | How much can we actually measure? | Inventory denominator may be wrong |
-| Endpoint detection protection/health | endpoint protection platform endpoint inventory + authoritative devices | Are priority endpoints consistently monitored? | Enrolled != healthy; exclusions |
-| Security log onboarding and freshness | Expected log source registry + security monitoring platform/historical analytics store | Which critical systems are blind spots? | Volume != usefulness; outage/latency |
-| Security incident triage/containment timing | security monitoring incidents + case management | Can operations act within agreed objectives? | Case clock normalization and severity |
-| Control configuration compliance | Configuration management | How consistently are baselines enforced? | Exception management and applicability |
-| Privileged identity and unauthorized access findings | Identity provider + investigations | Are key access controls producing expected outcomes? | Raw failed-login count is misleading |
-| Recovery test results | Backup and DR owners | Can prioritized services recover within objectives? | Need tested, business-owned results |
-| Security training completion | HR/training platform | Is required training executed? | Training != behavior or risk reduction |
+**Do not use this directory as a checklist to score customers.** Metrics are candidates until scoped, defined, evidence-validated and tied to a decision. All headings, measure IDs and adoption phases are local proposals.
 
-## Pick measures based on decisions
-For every candidate:
-1. State **specific leadership question**.
-2. Name authorized decision owner and expected response options.
-3. Define eligible population and **denominator** before numerator.
-4. Confirm collection coverage and quality.
-5. Define time window, threshold, and persistence trigger.
-6. Record interpretation limits and how outcomes will be evaluated.
+## Work backward from the decision
 
-Use the [metric specification template](../templates/metric-specification.md).
+| Step | Program artifact |
+|---|---|
+| What does an executive need to decide? | [12 executive decision themes](executive-decision-catalog.md) |
+| Which management and technical measurements support it? | [Three-level crosswalk](three-level-crosswalk.md) |
+| What might we measure or use as evidence? | [Master catalog](master-metric-catalog.md) |
+| What may we truthfully claim? | [Evidence / reporting rules](evidence-and-reporting-rules.md) |
+| How do we start with logs but without customer scope? | [Phase 0 observation baseline](phase-0-observation-baseline.md) |
+| What would make one measure operational? | [Metric specification template](../templates/metric-specification.md) |
 
-## Four practical classes of measurement (NIST 800-55 concepts)
-- **Implementation:** Is a safeguard deployed?
-- **Effectiveness:** Does it work as intended?
-- **Efficiency:** How many resources/time are required?
-- **Impact:** Is the result improving security or mission outcomes?
+## Three distinct kinds of reporting
 
-Metrics can inform decisions without earning a single composite grade.
+1. **Customer security outcomes:** condition of customer controls and services *within validated scope*.
+2. **MSSP service assurance:** whether we reliably meet agreed monitoring, investigation and communication expectations.
+3. **Measurement trust:** whether evidence, population, attribution, freshness and validation actually support a published statement.
 
-## Detailed examples
-- [Vulnerability remediation](vulnerability-remediation.md)
-- [Security telemetry coverage](security-telemetry-coverage.md)
-- [Endpoint protection coverage](endpoint-coverage.md)
+Vendor scores (web, DDoS, endpoint, phishing, vulnerabilities, SIEM, etc.) are **supporting observations**, not directly comparable enterprise KPIs. Normalize underlying outcomes and applicability, not vendor grade scales.
+
+## Existing worked examples (retain for reference)
+
+- [Vulnerability discovery, coverage and verified remediation](vulnerability-remediation.md).
+- [Expected versus usable security monitoring evidence](security-telemetry-coverage.md).
+- [Endpoint enrollment versus verified healthy protection](endpoint-coverage.md).
+
+These examples are *conditional*: they require a validated eligible customer population and evidence appropriate to the calculation. They should not be shown as numeric customer posture indicators during Phase 0.
+
+**When inventing a new metric, ask:** Which decision does it enable, who can make that decision, and what evidence would disprove our conclusion?
