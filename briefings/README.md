@@ -1,28 +1,33 @@
-# Leadership briefing kit — start here
+# Briefing and visual explanation kit
 
-**Five-minute route:** four full-size visuals, a one-page script, and optional technical detail. All numbers are *illustrative*.
+**The current program's canonical reporting model uses three audience views:** **executive**, **technical management** and **technical**. Customer validation and risk assessment are necessary handoffs, *not* separate software dashboards.
 
-## OPEN THE VISUAL SLIDES
-1. **[How evidence becomes a leadership decision](visuals/01-operating-model.svg)** — technical → program → Reporting Unit → enterprise → measured outcome
-2. **[Same finding, four conversations](visuals/02-four-views.svg)** — who sees what and why
-3. **[Decision gates and escalation](visuals/03-decision-gates.svg)** — stop false urgency without blocking true incidents
-4. **[Sample executive decision panel](visuals/04-executive-panel.svg)** — observation, data confidence, decision request, success measure
+## Start with the updated program visuals
 
-![Evidence to decision operating model](visuals/01-operating-model.svg)
+1. **[One evidence foundation → three connected audiences](visuals/05-three-audience-measurement.svg)** — why the same definitions feed all leadership levels.
+2. **[Phase 0 / inherited logs / no denominator](visuals/06-phase-0-baseline.svg)** — what can be responsibly presented before customer inventories and expected monitoring scope are agreed.
 
-**Presenter shortcut:** [One-page talking points](00-one-page-brief.md) → slides 1 and 2 → slide 4. Reserve slide 3 for questions.
+![MSSP three-audience reporting model](visuals/05-three-audience-measurement.svg)
 
-## Supporting editable flowcharts (Mermaid)
-- [Evidence to decision](01-evidence-to-decision.md)
-- [Presentation layers](02-presentation-layers.md)
-- [Full escalation tree](03-decision-tree.md)
-- [Walkthrough: vulnerability case](04-vulnerability-walkthrough.md)
-- [Closed-loop improvement](05-feedback-loop.md)
+These diagrams use **qualitative** statuses, not made-up customer numbers, and can be opened directly from GitHub.
 
-## Research upgrades
-The **risk translation** between measurement and executive decision is governed by an Reporting Unit/enterprise risk function; see [NIST IR 8286 bridge](../program/07-risk-to-decision-bridge.md). The Reporting Unit must also establish [service participation and measurement applicability](../program/08-Reporting Unit-applicability-and-services.md). Finally, the [program tracks its own decision outcomes](../program/09-outcome-review-and-program-health.md), not just tool statistics.
+## Existing general-purpose briefing assets
 
-## Request
-Sponsor a limited 90-day pilot: named owner, risk/GRC, Reporting Unit SMEs, engineering support, reviewed decision cadence. No universal score or new procurement promised.
+These *older* illustrative materials remain as supporting examples. Their additional "program" or "customer" conversation may appear as a fourth step; that is **not** a change to the current three-dashboard architecture.
 
-**Safety:** No real Reporting Unit findings, operational secrets or production telemetry in this public repo. All diagrams are static files designed to display directly in GitHub.
+- [Original operating model](visuals/01-operating-model.svg)
+- [Original four-conversation diagram](visuals/02-four-views.svg)
+- [Original decision gates](visuals/03-decision-gates.svg)
+- [Original executive sample panel](visuals/04-executive-panel.svg)
+- [One-page briefing](00-one-page-brief.md)
+- [Evidence-to-decision text](01-evidence-to-decision.md) · [Presentation layers](02-presentation-layers.md) · [Decision gates](03-decision-tree.md) · [Vulnerability walkthrough](04-vulnerability-walkthrough.md) · [Feedback](05-feedback-loop.md)
+
+## Presentation order for a first MSSP takeover conversation
+
+1. Show [Phase 0 baseline](visuals/06-phase-0-baseline.svg).
+2. Explain the [evidence and language rules](../metrics/evidence-and-reporting-rules.md): what we can claim and what we cannot.
+3. Show [three connected levels](visuals/05-three-audience-measurement.svg).
+4. Propose [starter metrics](../metrics/starter-metric-cards.md) and the concrete customer/provider scope questions they create.
+5. Ask for an explicit decision to establish source ownership and customer service scope, then set an outcome review.
+
+Use fictional / generic information only. This repository may be public.

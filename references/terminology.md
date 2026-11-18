@@ -1,28 +1,32 @@
-# Vendor-neutral terminology
+# Program terminology (vendor-neutral; MSSP-centered)
 
-This project is intended to apply across industries and organizational shapes.
+The **MSSP** is the provider delivering managed security capabilities. A **Customer** is any recipient such as an agency, department, division, operating company or business unit. **Reporting Unit** is an optional generic synonym for a customer or a specifically scoped reporting entity—not automatically an equal-sized enterprise.
 
-| Preferred | Meaning | Avoid as a universal name |
-|---|---|---|
-| **Organization** | Parent enterprise, institution or governing body | State, government, corporate HQ |
-| **Reporting Unit** | Scoped entity responsible for an outcome (department, division, subsidiary, agency, business line) | Agency as the default |
-| **Measurement Program** | Function defining, validating and interpreting metrics | Dashboard team |
-| **Technical Operations** | Security, platform, vulnerability, monitoring and system teams | One tool or operations specialty |
-| **Evidence Source** | An assessment, inventory, protection, monitoring or workflow source | Product brand |
-| **Historical Evidence Store** | Storage of snapshots, method versions and auditable references | Any named product |
-| **Reporting / Presentation Layer** | Role-appropriate views of shared evidence | Any named visualization platform |
-| **Risk Owner** | Authorized owner for assessment, acceptance and response within local governance | Whoever operates the scanner |
-| **Decision Packet** | Traceable finding, limitations, context, options, authority, actions and outcome measures | Security score |
+| Preferred phrase | Meaning |
+|---|---|
+| Customer | Entity receiving an MSSP service or assessment |
+| Subscribed / agreed service scope | What services and obligations are confirmed for that customer |
+| Customer-declared | Customer states something, not necessarily independently verified |
+| Provider-observed | Available evidence suggests something, limited to observation time and sources |
+| Validated | A particular claim has been appropriately checked for its stated scope |
+| Eligible population | Confirmed set relevant to an approved measure, after exclusions |
+| Evidence usable | Records support a specified question, not all hypothetical detections |
+| Evidence confidence / limitations | Reliability and missing information for the **particular claim** |
+| Service assurance | What the MSSP was expected to provide and whether it did |
+| Customer security outcome | Validated condition of customer-owned or applicable cybersecurity protections |
+| Measurement readiness | Whether a candidate claim is discovery-only, scoped, decision-grade or not assessable |
+| Decision packet | Evidence, scope, caveats, materiality, options, authority, actions and review |
+| Risk scenario | Customer/authorized authority's plausible event, consequence and risk context |
 
-## Language rules
-- Use **Reporting Unit** in templates and illustrations; identify the actual unit type during implementation.
-- An entity can have both centrally provided and locally operated security controls. Record inherited, shared and local responsibilities before scoring.
-- **Measurable** is not synonymous with **secure**.
-- **Observed** is not synonymous with **currently open**: show timestamp, confidence and any newer verification.
-- Treat a **security finding**, **risk scenario**, **decision**, and **verified outcome** as separate objects.
-- Name actual platforms only in implementation-specific adapters or dedicated research notes where that context is necessary.
+## Language discipline
 
-## Canonical levels
-NIST SP 800-137 Tier 1: Organization; Tier 2: Mission/business processes; Tier 3: Information systems. The measurement program is proposed as a cross-cutting function, not a new NIST tier.
+1. **Observed is not complete**. Logs do not prove the full eligible customer population.
+2. **Reported is not independently verified**; note the assertion source.
+3. **Unknown is not insecure** and not compliant.
+4. **Missing expected evidence** requires an established expectation, not merely a silent source.
+5. **Vendor score is not enterprise risk**; normalize actual underlying outcomes when possible.
+6. **Customer security and provider service delivery are different**; report separately.
+7. **Three reporting audiences** (executive, manager, technical) are not NIST tiers or application access levels.
+8. **Critical mission impact** needs customer/risk authority validation; the measurement team cannot assume it.
 
-**Status:** These terms are local project conventions, not official NIST definitions.
+NIST SP 800-137's organizational tiers and NIST CSF 2.0's implementation tiers are separate concepts and should not be relabeled as three dashboard levels. These local conventions are not official NIST definitions.

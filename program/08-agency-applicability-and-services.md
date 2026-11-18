@@ -1,42 +1,48 @@
-# Reporting Unit applicability and service participation model
+# Customer applicability, MSSP participation and shared responsibility
 
-**Purpose:** Comparable *definitions*, not forced comparable *scores*. State organizations operate different missions with different technology and service adoption. Distinguish controls they own from central services they subscribe to.
+**Purpose:** Define **what a security measure can meaningfully cover for a particular customer**, distinguishing the customer's entire environment from subscribed/observed MSSP services. "Customer" includes government agencies, departments, business units and other contracted recipients.
 
-## Minimum participation registry (proposed)
-| Field | Why it matters |
+## Questions before measuring a customer
+
+| Question | Why it matters |
 |---|---|
-| reporting_unit_id / legal and operational owner | Governance, data access |
-| service_id + subscribed capabilities | Whether centralized SOC has visibility and responsibility |
-| service effective_start/end | Honest historical trend despite onboarding/offboarding |
-| asset cohort (server, workstation, critical service etc.) | Appropriate denominator |
-| applicable security outcome | Avoid scoring inapplicable requirements |
-| inventory source and steward | Independent denominator, coverage proof |
-| data owner + incident/risk owner | Correct handoff |
-| inherited/shared/local control responsibility | Prevent assigning centrally owned gaps to an Reporting Unit |
-| exceptions + expiry + approved authority | Traceable deviations |
-| data entitlement classification | Isolation and sharing limits |
+| Which customer and service does this observation belong to? | Avoid misattribution in shared or inherited telemetry |
+| Is the capability subscribed, required, optional, local or out of scope? | Do not score a customer for something inapplicable |
+| What is the eligible population, and who confirms it? | A numerator without a trustworthy denominator is not coverage |
+| Does evidence show enrollment, operation or tested effectiveness? | These are different assurance claims |
+| What exclusions and exceptions have an accountable rationale? | Avoid misleading peer comparisons |
+| What is a customer-owned task versus provider-owned service failure? | Correct accountability and escalation |
+| What is the observation and validation date? | Prevent stale or historical records from masquerading as current |
 
-## Three reported states (never collapse them)
-- **Applicable + measured:** a scoped result with quality and coverage.
-- **Applicable + not adequately measured:** visibility gap; report separately with action owner.
-- **Not applicable / outside subscribed service:** documented rationale and scope. Never treat as zero or as fully compliant.
+**Do not infer a contract, eligible population, asset criticality or service obligation from the mere presence of log events.**
 
-## Cross-Reporting Unit comparison rules
-- Only compare like-for-like measures and eligible cohorts.
-- Always show numerator, denominator, coverage and Reporting Unit context.
-- Segment enterprise results by a *common applicable cohort*; exclude unsupported peer rankings.
-- Measure the central service separately: onboarding lead time, ingestion reliability, coverage of commitments, incident service delivery and Reporting Unit engagement.
-- Avoid self-assessment conflict: the SOC can report service performance, but independent review/risk owners validate consequential conclusions.
+## Coverage statements (separate states)
 
-## Two-dimensional view
-**Reporting Unit security outcome** (where measurable) × **service/evidence coverage**. You may have an Reporting Unit with many known findings but excellent visibility, and another with few findings and inadequate monitoring; neither situation justifies a confident 'secure' label.
+- **Applicable + validated measurement:** a defined population with adequate evidence, time and confidence.
+- **Applicable + not adequately assessed:** a *measurement gap*, not proof of either compliant or insecure status.
+- **Not applicable / outside agreed service:** clear rationale, not a zero and not 100% compliance.
+- **Applicability not established:** no customer-specific score; request service scope or owner confirmation.
+- **Customer-declared / provider-observed mismatch:** reconcile duplicates, identity and scope before calculating rates.
 
-## Example responsibility distinction
-| Observation | Possible Reporting Unit action | Possible enterprise service action |
+## Example: "We know about 70, but there may be 100"
+
+A customer declares 70 eligible systems. Independent observations suggest 100 *identities* (not necessarily 100 distinct eligible systems). After deduplication and source/time reconciliation, customer owners confirm which are truly distinct, owned, applicable and in service scope. **Only then** may a suitable denominator and scoped monitoring result be published.
+
+Earlier claim: "We observe events related to this customer; their full expected monitoring population is not yet confirmed."
+
+Later claim, if validated: "For the agreed eligible cohort as of [date], [number] have usable monitoring evidence; remaining identities are categorized as unmonitored, excluded or under review."
+
+## Multi-customer comparisons
+
+Compare **like-for-like eligible cohorts and approved definitions**. Publish source/time/quality limitations with each comparison. Do not rank customers by incomparable vendor grades. Keep MSSP service assurance and customer security outcomes separate; a customer may have excellent reporting visibility and many issues, or few observed issues because monitoring is inadequate.
+
+## Reporting responsibility examples
+
+| Situation | Customer-side question/action | Provider-side question/action |
 |---|---|---|
-| Vulnerabilities persist beyond agreed target | Schedule patch windows, remediate owned system | Shared engineering/contract capacity where demonstrated |
-| Sensor missing on owned endpoints | Confirm assets and installation change | Correct onboarding/tool support fault |
-| Critical logs absent | Confirm source and credentials | Investigate central collector, parser or retention issue |
-| Inventory denominator uncertain | Validate authoritative asset registry | Provide standardized asset-reconciliation process |
+| Unverified asset population | Confirm inventory, ownership and eligibility | Share relevant observed identities and assumptions |
+| Repeatedly overdue applicable vulnerability remediation | Confirm service priority and remediation plan | Validate findings and applicable service responsibilities |
+| Expected critical logs not arriving | Verify source-side change or exclusion | Verify provider collection/parsing and any agreed monitoring commitment |
+| Source identities mismatch | Confirm customer/service boundaries | Reconcile duplicates, shared infrastructure and historical mappings |
 
-**Status:** Registry fields and ownership rules require local approval; do not infer service subscriptions from tool ingestion alone.
+**Status:** Applicability, service expectations, thresholds and decision rights require local confirmation. Software access-control design does not belong in this measurement program. See [rules](../metrics/evidence-and-reporting-rules.md).
